@@ -42,3 +42,19 @@ h1 + p
 {
     text-align: center;
 }
+
+@media screen and (max-width: 1024px)
+{
+    #liseret
+    {display: none;}
+
+    section
+    {
+        display: block;
+        width: auto;
+    }
+    #contenu
+    {
+        display: auto;
+    }
+}
